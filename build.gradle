@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+version = '2.0.0'
+sourceCompatibility = 1.8
+mainClassName = 'uk.recurse.adtstool.AdtsTool'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'uk.recurse.bitwrapper:bit-wrapper:0.1.0'
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    compile 'com.beust:jcommander:1.48'
+    runtime 'org.slf4j:slf4j-simple:1.7.12'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.10.19'
+}
