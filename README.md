@@ -6,6 +6,8 @@ Lossless cutting works by cutting files on ADTS frame boundaries. A frame contai
 
 ADTS Tool requires Java 8 to build and run.
 
+[ ![Download](https://api.bintray.com/packages/bencampion/generic/adts-tool/images/download.svg) ](https://bintray.com/bencampion/generic/adts-tool/_latestVersion)
+
 ## Building
 
 Clone the repo and build using the Gradle wrapper:
